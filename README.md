@@ -1,31 +1,33 @@
-# oil-skills-media
+# oil-media-skills
 
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="oil-skills-media 视频创作 Skill 集合：剪辑、字幕、封面和发布前草稿流程，右侧是眼镜小人与暖黄色边牧。">
+  <img src="./assets/readme/hero.svg" width="100%" alt="oil-media-skills 全流程自媒体创作 Skill 集合：从文案和视觉素材，到剪辑、字幕、封面和发布。">
 </p>
 
-这是 oil 的自媒体创作 Skill 源码集合，覆盖演示、插图、剪辑、字幕、封面和发布前草稿。每个 Skill 仍在自己的仓库维护；这里用 Git submodule 固定来源，不复制一份代码做二次维护。
+`oil-media-skills` 是一个覆盖自媒体创作全流程的 Skill 集合：从面向观众的文案、演示和插图，到视频剪辑、字幕、封面，再到多平台发布。它不是一键自动流水线；你可以只用其中一个 Skill，也可以按自己的内容制作顺序组合使用。
+
+每个 Skill 仍在自己的仓库维护。这个仓库用 Git submodule 记录来源，不复制代码做二次维护。
 
 ## 包含的 Skill
 
-| Skill | 用途 | 独立仓库 |
-| --- | --- | --- |
-| `oil-ppt` | 制作 HTML 演示文稿 | [oil-ppt](https://github.com/oil-oil/oil-ppt) |
-| `oil-cover` | 生成视频封面 | [oil-cover](https://github.com/oil-oil/oil-cover) |
-| `oil-visual` | 制作解释图与透明插图 | [oil-visual](https://github.com/oil-oil/oil-visual) |
-| `screen-studio-editor` | 剪辑 Screen Studio 工程 | [screen-studio-editor](https://github.com/oil-oil/screen-studio-editor) |
-| `video-editor` | 粗剪普通视频 | [video-editor](https://github.com/oil-oil/video-editor) |
-| `oil-subtitle` | 转录、校对和烧录字幕 | [oil-subtitle](https://github.com/oil-oil/oil-subtitle) |
-| `video-publisher` | 准备多平台草稿；明确授权时完成发布 | [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) |
-| `oil-tone` | 为面向观众的文案提供文风规范 | [oil-tone](https://github.com/oil-oil/oil-tone) |
+| 环节 | Skill | 能做什么 | 独立仓库 |
+| --- | --- | --- | --- |
+| 文案 | `oil-tone` | 根据已有事实材料起草或润色口播、文章、演讲和产品介绍，让表达自然、清楚，不编造经历或结果。 | [oil-tone](https://github.com/oil-oil/oil-tone) |
+| 演示 | `oil-ppt` | 把讲述内容做成 16:9 HTML 演示页，逐页检查；需要时导出 PPTX。 | [oil-ppt](https://github.com/oil-oil/oil-ppt) |
+| 插图 | `oil-visual` | 制作解释概念与流程的漫画墨线图，或供文章、演示和封面排版使用的透明角色插图。 | [oil-visual](https://github.com/oil-oil/oil-visual) |
+| 工程剪辑 | `screen-studio-editor` | 整理 `.screenstudio` 工程里的停顿、重讲和补录，也能按口播把屏幕轨替换为 PPT。 | [screen-studio-editor](https://github.com/oil-oil/screen-studio-editor) |
+| 成片粗剪 | `video-editor` | 对 MP4、MOV 等已导出视频压缩停顿、清理口误，输出新视频、剪辑计划和审计报告。 | [video-editor](https://github.com/oil-oil/video-editor) |
+| 字幕 | `oil-subtitle` | 转录并校对中文字幕，预览后烧录进视频；需要时输出同时间轴的英文 SRT。 | [oil-subtitle](https://github.com/oil-oil/oil-subtitle) |
+| 封面 | `oil-cover` | 根据视频或脚本制作小红书与 B 站封面，输出适配不同展示位置的三种画幅。 | [oil-cover](https://github.com/oil-oil/oil-cover) |
+| 发布 | `video-publisher` | 上传并验证小红书、抖音、B 站、视频号和 YouTube 草稿；默认停在最终发布前，用户明确要求时才完成发布。 | [video-publisher-skill](https://github.com/oil-oil/video-publisher-skill) |
 
 `auto-publish` 暂未接入：它目前没有独立的公开源仓库。等来源确定后再以 submodule 加入，不复制项目内版本。
 
 ## 获取源码
 
 ```bash
-git clone --recurse-submodules https://github.com/oil-oil/oil-skills-media.git
-cd oil-skills-media
+git clone --recurse-submodules https://github.com/oil-oil/oil-media-skills.git
+cd oil-media-skills
 python3 scripts/verify_collection.py
 ```
 
