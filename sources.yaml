@@ -1,0 +1,45 @@
+version: 1
+skills:
+  - name: oil-ppt
+    repository: https://github.com/oil-oil/oil-ppt.git
+    source_path: oil-ppt
+    submodule_path: vendor/oil-ppt
+    local_path: skills/oil-ppt
+  - name: oil-cover
+    repository: https://github.com/oil-oil/oil-cover.git
+    source_path: .
+    submodule_path: vendor/oil-cover
+    local_path: skills/oil-cover
+  - name: oil-visual
+    repository: https://github.com/oil-oil/oil-visual.git
+    source_path: .
+    submodule_path: vendor/oil-visual
+    local_path: skills/oil-visual
+  - name: video-publisher
+    repository: https://github.com/oil-oil/video-publisher-skill.git
+    source_path: video-publisher
+    submodule_path: vendor/video-publisher-skill
+    local_path: skills/video-publisher
+  - name: screen-studio-editor
+    repository: https://github.com/oil-oil/screen-studio-editor.git
+    source_path: .
+    submodule_path: vendor/screen-studio-editor
+    local_path: skills/screen-studio-editor
+  - name: video-editor
+    repository: https://github.com/oil-oil/video-editor.git
+    source_path: .
+    submodule_path: vendor/video-editor
+    local_path: skills/video-editor
+  - name: oil-subtitle
+    repository: https://github.com/oil-oil/oil-subtitle.git
+    source_path: .
+    submodule_path: vendor/oil-subtitle
+    local_path: skills/oil-subtitle
+  - name: oil-tone
+    repository: https://github.com/oil-oil/oil-tone.git
+    source_path: skills/oil-tone
+    submodule_path: vendor/oil-tone
+    local_path: skills/oil-tone
+  - name: auto-publish
+    status: pending
+    reason: 没有可引用的独立公开源仓库

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="460" viewBox="0 0 1200 460"
+     role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">oil-skills-media</title>
+  <desc id="hero-desc">oil 的自媒体视频创作 Skill 集合：可按需组合剪辑、字幕、封面和发布前草稿工作流。右侧为戴圆框眼镜的小人和暖黄色边牧一起整理流程的透明插图。</desc>
+
+  <defs>
+    <pattern id="paper-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#d8d1c3" stroke-width="1" opacity=".35"/>
+    </pattern>
+    <clipPath id="hero-clip">
+      <rect width="1200" height="460" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#hero-clip)">
+    <rect width="1200" height="460" fill="#f7f3ea"/>
+    <rect width="1200" height="460" fill="url(#paper-grid)"/>
+    <circle cx="955" cy="220" r="236" fill="#f2c14e" opacity=".20"/>
+    <path d="M595 86C690 37 779 47 842 90" fill="none" stroke="#151515" stroke-width="2" stroke-dasharray="3 10" opacity=".23"/>
+
+    <g id="title-block" transform="translate(58 48)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
+      <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" font-weight="700" letter-spacing="1.1">
+        <text x="0" y="18" fill="#514e48">OIL  /  CREATOR WORKFLOW</text>
+        <text x="0" y="49" fill="#7a7469">08 SKILLS · UPSTREAM SOURCES</text>
+      </g>
+
+      <text x="-3" y="132" fill="#151515" font-size="57" font-weight="780" letter-spacing="-2.3">oil-skills-media</text>
+      <text x="1" y="184" fill="#514e48" font-size="25" font-weight="650">把视频创作流程拆成可组合的 Skills。</text>
+      <text x="1" y="221" fill="#68635b" font-size="21" font-weight="450">按需单独安装，也可以组合使用。</text>
+
+      <g transform="translate(2 262)" font-size="17" font-weight="700">
+        <circle cx="11" cy="10" r="10" fill="#7fa7d8" stroke="#151515" stroke-width="1.5"/>
+        <text x="31" y="16" fill="#514e48">演示</text>
+        <circle cx="109" cy="10" r="10" fill="#78a67f" stroke="#151515" stroke-width="1.5"/>
+        <text x="129" y="16" fill="#514e48">视觉</text>
+        <circle cx="207" cy="10" r="10" fill="#f2c14e" stroke="#151515" stroke-width="1.5"/>
+        <text x="227" y="16" fill="#514e48">文案</text>
+      </g>
+
+      <g id="video-workflow" transform="translate(0 328)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
+        <text x="0" y="0" fill="#7a7469" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700" letter-spacing="1">VIDEO WORKFLOW</text>
+        <path d="M12 32H490" fill="none" stroke="#b8b1a5" stroke-width="2"/>
+
+        <g transform="translate(10 32)">
+          <circle r="10" fill="#151515"/>
+          <text x="0" y="6" text-anchor="middle" fill="#f7f3ea" font-size="13" font-weight="800">1</text>
+          <text x="0" y="39" text-anchor="middle" fill="#151515" font-size="18" font-weight="700">剪辑</text>
+        </g>
+        <path d="M85 32H163" stroke="#151515" stroke-width="2"/>
+        <path d="M156 26L164 32L156 38" fill="none" stroke="#151515" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <g transform="translate(190 32)">
+          <circle r="10" fill="#7fa7d8" stroke="#151515" stroke-width="1.5"/>
+          <text x="0" y="6" text-anchor="middle" fill="#151515" font-size="13" font-weight="800">2</text>
+          <text x="0" y="39" text-anchor="middle" fill="#151515" font-size="18" font-weight="700">字幕</text>
+        </g>
+        <path d="M265 32H343" stroke="#151515" stroke-width="2"/>
+        <path d="M336 26L344 32L336 38" fill="none" stroke="#151515" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <g transform="translate(370 32)">
+          <circle r="10" fill="#78a67f" stroke="#151515" stroke-width="1.5"/>
+          <text x="0" y="6" text-anchor="middle" fill="#151515" font-size="13" font-weight="800">3</text>
+          <text x="0" y="39" text-anchor="middle" fill="#151515" font-size="18" font-weight="700">封面</text>
+        </g>
+        <path d="M445 32H483" stroke="#151515" stroke-width="2"/>
+        <path d="M476 26L484 32L476 38" fill="none" stroke="#151515" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <g transform="translate(510 32)">
+          <circle r="10" fill="#f2c14e" stroke="#151515" stroke-width="1.5"/>
+          <text x="0" y="6" text-anchor="middle" fill="#151515" font-size="13" font-weight="800">4</text>
+          <text x="0" y="39" text-anchor="middle" fill="#151515" font-size="18" font-weight="700">草稿</text>
+        </g>
+      </g>
+    </g>
+
+    <g id="oil-visual-subject" aria-label="oil-visual 透明角色插图">
+      <image x="650" y="-14" width="540" height="540"
+             href="__OIL_VISUAL_CHARACTER_PNG_DATA__"
+             preserveAspectRatio="xMidYMid meet"/>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="458" rx="29" fill="none" stroke="#151515" stroke-width="2"/>
+</svg>

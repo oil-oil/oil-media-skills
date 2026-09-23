@@ -1,0 +1,6 @@
+/dist/
+/skills-lock.json
+/.agents/
+__pycache__/
+*.pyc
+.DS_Store

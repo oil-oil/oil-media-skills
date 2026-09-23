@@ -1,0 +1,24 @@
+[submodule "vendor/oil-ppt"]
+	path = vendor/oil-ppt
+	url = https://github.com/oil-oil/oil-ppt.git
+[submodule "vendor/oil-cover"]
+	path = vendor/oil-cover
+	url = https://github.com/oil-oil/oil-cover.git
+[submodule "vendor/oil-visual"]
+	path = vendor/oil-visual
+	url = https://github.com/oil-oil/oil-visual.git
+[submodule "vendor/video-publisher-skill"]
+	path = vendor/video-publisher-skill
+	url = https://github.com/oil-oil/video-publisher-skill.git
+[submodule "vendor/screen-studio-editor"]
+	path = vendor/screen-studio-editor
+	url = https://github.com/oil-oil/screen-studio-editor.git
+[submodule "vendor/video-editor"]
+	path = vendor/video-editor
+	url = https://github.com/oil-oil/video-editor.git
+[submodule "vendor/oil-subtitle"]
+	path = vendor/oil-subtitle
+	url = https://github.com/oil-oil/oil-subtitle.git
+[submodule "vendor/oil-tone"]
+	path = vendor/oil-tone
+	url = https://github.com/oil-oil/oil-tone.git
